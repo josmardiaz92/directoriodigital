@@ -78,12 +78,13 @@ body {
   
   .cuadro-centrado {
       width: 95%;
-      height: 80%;
+      height: 100%;
       background-color: #be5656;
       margin: auto;
       margin-top: 20px;
       text-align: center;
       line-height: 100px;
+
   }
   
 h1 {
@@ -101,3 +102,14 @@ h1 {
     font-weight: bolder;
     text-transform: capitalize;
 }
+
+.fila {
+  display: flex;
+  height: 33.3%;
+}
+
+.columna {
+  flex: 1;
+  border: 3px dotted red;
+}
+
